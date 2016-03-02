@@ -1,0 +1,111 @@
+{
+  "req_code": {
+    "desc": "Accounting-Request",
+    "type": "char",
+    "value": "4"
+  },
+  "req_attr": {
+    "40": {
+      "desc": "Acct-Status-Type",
+      "type": "int",
+      "value": "99"
+    },
+    "102": {
+      "desc": "User-Info",
+      "type": "stream",
+      "value": [
+        {
+          "desc": "kcNum",
+          "type": "string",
+          "len": 32,
+          "value": "63244003000012"
+        },
+        {
+          "desc": "calleeNum",
+          "type": "string",
+          "len": 32,
+          "value": "00931122"
+        },
+        {
+          "desc": "snNum",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "desc": "callId",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "desc": "hEntry",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "desc": "hId",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "desc": "swiftId",
+          "type": "int",
+          "value": 5
+        },
+        {
+          "desc": "secondcnt",
+          "type": "char",
+          "value": 6
+        },
+        {
+          "desc": "startTime",
+          "type": "int",
+          "value": 7
+        },
+        {
+          "desc": "callType",
+          "type": "char",
+          "value": 1
+        },
+        {
+          "desc": "fromIp",
+          "type": "string",
+          "len": 16,
+          "value": "172.16.2.100"
+        },
+        {
+          "desc": "toIp",
+          "type": "string",
+          "len": 16,
+          "value": "172.16.2.100"
+        },
+        {
+          "desc": "brand",
+          "type": "string",
+          "len": 8,
+          "value": "yzx"
+        },
+        {
+          "desc": "platform",
+          "type": "char",
+          "value": 9
+        },
+        {
+          "desc": "call",
+          "type": "string",
+          "len": 64,
+          "value": "call"
+        },
+        {
+          "desc": "callerDisType",
+          "type": "char",
+          "value": 10
+        },
+        {
+          "desc": "calleeDisType",
+          "type": "char",
+          "value": 11
+        }
+      ]
+    }
+  }
+}

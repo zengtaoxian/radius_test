@@ -1,0 +1,12 @@
+{
+  "remote_ip": "172.17.42.51",
+  "remote_port": 1813,
+  "shared_secret": "testing123",
+  "active_file": [
+    "restart.json",
+    "one_auth.json",
+    "start.json",
+    "keep_alive.json",
+    "stop.json"
+  ]
+}

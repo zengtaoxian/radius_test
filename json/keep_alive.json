@@ -1,0 +1,32 @@
+{
+  "hold_time": 0,
+  "req_code": {
+    "desc": "Accounting-Request",
+    "type": "char",
+    "value": 4
+  },
+  "req_attr": {
+    "40": {
+      "desc": "Acct-Status-Type",
+      "type": "int",
+      "value": 100
+    }
+  },
+  "resp_code": {
+    "desc": "Accounting-Response",
+    "type": "char",
+    "value": "5"
+  },
+  "resp_attr": {
+    "40": {
+      "desc": "Acct-Status-Type",
+      "type": "int",
+      "value": "100"
+    },
+    "107": {
+      "desc": "Acct-No-Balance",
+      "type": "char",
+      "value": "0"
+    }
+  }
+}

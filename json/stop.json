@@ -1,0 +1,204 @@
+{
+  "hold_time": 0,
+  "req_code": {
+    "desc": "Accounting-Request",
+    "type": "char",
+    "value": "4"
+  },
+  "req_attr": {
+    "40": {
+      "desc": "Acct-Status-Type",
+      "type": "int",
+      "value": "2"
+    },
+    "134": {
+      "desc": "One-Bill-Info",
+      "type": "stream",
+      "value": [
+        {
+          "desc": "order_id",
+          "type": "string",
+          "len": 32,
+          "value": "444"
+        },
+        {
+          "desc": "group_id",
+          "type": "int",
+          "value": 123
+        }
+      ]
+    },
+    "103": {
+      "desc": "Bill-Info",
+      "type": "stream",
+      "value": [
+        {
+          "desc": "kcNum",
+          "type": "string",
+          "len": 32,
+          "value": "111"
+        },
+        {
+          "desc": "calleeNum",
+          "type": "string",
+          "len": 32,
+          "value": "333"
+        },
+        {
+          "desc": "snNum",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "desc": "callId",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "desc": "hEntry",
+          "type": "int",
+          "value": 3
+        },
+        {
+          "desc": "hId",
+          "type": "int",
+          "value": 4
+        },
+        {
+          "desc": "swiftId",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "desc": "secondcnt",
+          "type": "char",
+          "value": 6
+        },
+        {
+          "desc": "startTime",
+          "type": "int",
+          "value": 1456456271
+        },
+        {
+          "desc": "endTime",
+          "type": "int",
+          "value": 1456456281
+        },
+        {
+          "desc": "callType",
+          "type": "char",
+          "value": 1
+        },
+        {
+          "desc": "errorType",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "desc": "billType",
+          "type": "char",
+          "value": 1
+        },
+        {
+          "desc": "exceptionTime",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "desc": "fromIp",
+          "type": "string",
+          "len": 16,
+          "value": "172.16.2.100"
+        },
+        {
+          "desc": "toIp",
+          "type": "string",
+          "len": 16,
+          "value": "172.16.2.100"
+        },
+        {
+          "desc": "brand",
+          "type": "string",
+          "len": 8,
+          "value": "yzx"
+        },
+        {
+          "desc": "platform",
+          "type": "char",
+          "value": 9
+        },
+        {
+          "desc": "call",
+          "type": "string",
+          "len": 64,
+          "value": "call"
+        },
+        {
+          "desc": "callerDisType",
+          "type": "char",
+          "value": 0
+        },
+        {
+          "desc": "calleeDisType",
+          "type": "char",
+          "value": 1
+        },
+        {
+          "desc": "hungupReason",
+          "type": "int",
+          "value": 0
+        },
+        {
+          "desc": "supportV",
+          "type": "char",
+          "value": 0
+        }
+      ]
+    }
+  },
+  "resp_code": {
+    "desc": "Accounting-Response",
+    "type": "char",
+    "value": "5"
+  },
+  "resp_attr": {
+    "40": {
+      "desc": "Acct-Status-Type",
+      "type": "int",
+      "value": "2"
+    },
+    "105": {
+      "desc": "Session-Info",
+      "type": "stream",
+      "value": [
+        {
+          "desc": "sn",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "desc": "call_id",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "desc": "swift_id",
+          "type": "int",
+          "value": 3,
+          "ignore": 1
+        },
+        {
+          "desc": "second",
+          "type": "char",
+          "value": 1,
+          "ignore": 1
+        }
+      ]
+    },
+    "104": {
+      "desc": "Error-Type",
+      "type": "int",
+      "value": "0"
+    }
+  }
+}

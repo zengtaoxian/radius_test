@@ -1,0 +1,99 @@
+{
+  "hold_time": 0,
+  "req_code": {
+    "desc": "Accounting-Request",
+    "type": "char",
+    "value": "4"
+  },
+  "req_attr": {
+    "40": {
+      "desc": "Acct-Status-Type",
+      "type": "int",
+      "value": "105"
+    },
+    "132": {
+      "desc": "One-Req-Info",
+      "type": "stream",
+      "value": [
+        {
+          "desc": "sn",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "desc": "call_id",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "desc": "caller",
+          "type": "string",
+          "len": 32,
+          "value": "111"
+        },
+        {
+          "desc": "mid_num",
+          "type": "string",
+          "len": 32,
+          "value": "222"
+        }
+      ]
+    }
+  },
+  "resp_code": {
+    "desc": "Accounting-Response",
+    "type": "char",
+    "value": "5"
+  },
+  "resp_attr": {
+    "40": {
+      "desc": "Acct-Status-Type",
+      "type": "int",
+      "value": "105"
+    },
+    "104": {
+      "desc": "Error-Type",
+      "type": "int",
+      "value": "0"
+    },
+    "133": {
+      "desc": "One-Resp-Info",
+      "type": "stream",
+      "value": [
+        {
+          "desc": "sn",
+          "type": "int",
+          "value": 1
+        },
+        {
+          "desc": "call_id",
+          "type": "int",
+          "value": 2
+        },
+        {
+          "desc": "callee",
+          "type": "string",
+          "len": 32,
+          "value": "333"
+        },
+        {
+          "desc": "order_id",
+          "type": "string",
+          "len": 32,
+          "value": "444"
+        },
+        {
+          "desc": "app_id",
+          "type": "string",
+          "len": 33,
+          "value": "otps_appid"
+        },
+        {
+          "desc": "group_id",
+          "type": "int",
+          "value": 123
+        }
+      ]
+    }
+  }
+}
